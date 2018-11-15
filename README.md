@@ -1,7 +1,7 @@
 # stores-rest-api
 Rest API creation using stores database
 
-# commands to commit files from local to empty github repo
+### commands to commit files from local to empty github repo
 
 ```
 git init
