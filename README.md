@@ -1,7 +1,5 @@
 # stores-rest-api
 Rest API creation using stores database
-<<<<<<< HEAD
-=======
 
 ### commands to commit files from local to empty github repo
 
@@ -21,4 +19,4 @@ git push -u origin master
 git status
 rm-rf .git
 ```
->>>>>>> c5034d550062ac21cdda9d505740c497d5d84687
+
