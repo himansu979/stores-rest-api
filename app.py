@@ -20,11 +20,6 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.secret_key = "jose"
 api = Api(app)
 
-@app.before_first_request
-def create_tables():
-    db.create_all()
-
-
 jwt = JWT(app, authenticate, identity) # http://127.0.0.1:5000/auth endpoint
 
 # authenticate, identity are defined in security
