@@ -20,6 +20,7 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.secret_key = "jose"
 api = Api(app)
 
+
 # the following lines are moved to run.py
 #@app.before_first_request
 #def create_tables():
