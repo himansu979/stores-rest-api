@@ -1,0 +1,7 @@
+pip_freeze.txt
+create_tables.py
+.DS_Store
+__pycache__/
+*.pyc
+*py~
+*~
